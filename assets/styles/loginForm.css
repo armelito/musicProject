@@ -1,0 +1,83 @@
+.return
+{
+    border: solid 1px #525252;
+    border-radius: 20px;
+    position: absolute;
+    top: 13px;
+    right: 15px;
+    width: 16px;
+    height: 16px;
+}
+
+.return:hover
+{
+    transform: scale(1.2);
+}
+
+.return .cross_1
+{
+    background: #525252;
+    position: absolute;
+    left: 2.5px;
+    width: 8px;
+    height: 1.2px;
+    transform: rotateZ(45deg)
+}
+
+.return .cross_2
+{
+    background: #525252;
+    position: absolute;
+    left: 2.5px;
+    width: 8px;
+    height: 1.2px;
+    transform: rotateZ(-45deg)
+}
+
+.login_article
+{
+    background: #fefefe;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    top: 200px;
+    left: 522px;
+    width: 300px;
+    height: 380px;
+}
+
+.login
+{
+    margin-bottom: 15px;
+}
+
+.login_title
+{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    transform: translateX(-50%) translateY(50%);
+}
+
+.login_form
+{
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%);
+}
+
+.notLogin_title
+{
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    transform: translateX(-50%) translateY(50%);
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.login_input
+{
+    margin-bottom: 10px;
+}

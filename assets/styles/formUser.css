@@ -1,0 +1,82 @@
+/* FORM USER */
+
+ul.form_user
+{
+   display: inline;
+   position: absolute;
+   top: 36px;
+   left: 1100px;
+}
+
+.form_user .form_line
+{
+    border: #2C2C2C 1px solid;
+    border-radius: 20px;
+    display: inline-block;
+    margin-left: 36px;
+    width: 76px;
+    height: 22px;
+    text-align: center;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.13, 1.04, 0.74, 1.07);
+}
+
+.form_user .form_line:hover
+{
+    transform: scale(1.1);
+}
+
+.form_user .form_line.save
+{
+    width: 120px;
+}
+
+.form_user .form_line.settings
+{
+    position: absolute;
+    left: 0px;
+    cursor: pointer;
+}
+
+.form_user .form_line.exit
+{
+    position: absolute;
+    left: 140px;
+}
+
+/* HELLO USER */
+
+.hello_user
+{
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    font-size: 26px;
+}
+
+/* BUTTON CREATE */
+
+.button_create
+{
+    border: #2C2C2C 1px solid;
+    border-radius: 20px;
+    position: absolute;
+    top:50%;
+    left: 44%;
+    width: 174px;
+    height: 44px;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.13, 1.04, 0.74, 1.07);
+}
+
+.text_create
+{
+    position: absolute;
+    top: 13px;
+    left: 50px;
+}
+
+.button_create:hover
+{
+    transform: scale(1.1);
+}
